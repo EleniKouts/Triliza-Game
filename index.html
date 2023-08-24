@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+  <script src="game_logic.js" defer></script>
+  <title>Triliza Game</title>
+  <link rel="icon" href="green.png">
+</head>
+<body>
+    <h1 id="playerText">Triliza Game</h1>
+    <div class="board" id="board">
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+    <div class="cell" data-cell></div>
+  </div>
+  <div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>
+  </div>
+</body>
+</html>
